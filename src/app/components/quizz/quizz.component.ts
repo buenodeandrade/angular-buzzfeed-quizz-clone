@@ -60,24 +60,19 @@ export class QuizzComponent implements OnInit {
  }
 
  async checkResult(anwsers:string[]){
-  let results: { [key: string]: number } = {};
-  for(let i=0; i<anwsers.length; i++){
-      if(results[anwsers[i]]){
-          results[anwsers[i]] += 1;
-      } else {
-          results[anwsers[i]] = 1;
-      }
-  }
 
-  const sortedKeys = Object.keys(results).sort((a, b) => results[b] - results[a]);
-  const highestCount = results[sortedKeys[0]];
-  const mostFrequent = sortedKeys.filter(key => results[key] === highestCount);
+    const result = anwsers.reduce((previous, current, i, arr)=>{
+        if(
+          arr.filter(item => item === previous).length >
+          arr.filter(item => item === current).length
+        ){
+          return previous
+        }else{
+          return current
+        }
+    })
 
-  if(mostFrequent.length === 1){
-      return mostFrequent[0];
-  } else {
-      return 'Draw between ' + mostFrequent.join(' and ');
-  }
-}
+    return result
+ }
 
 }

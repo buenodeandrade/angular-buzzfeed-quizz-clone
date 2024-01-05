@@ -1,55 +1,235 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual é seu mapa preferido de Counter-Strike?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "1. Qual estilo de mapa você prefere?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Urbanos e fechados", "alias": "D"},
+        {"id": 2, "name":"Abertos e espaçosos", "alias":"B"},
+        {"id": 3, "name":"Com áreas internas e externas bem equilibradas", "alias":"C"},
+        {"id": 4, "name":"Com muitas passagens e esconderijos", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "1. Qual estilo de mapa você prefere?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Urbanos e fechados", "alias":"G"},
+        {"id": 2, "name":"Abertos e espaçosos", "alias":"F"},
+        {"id": 3, "name":"Com áreas internas e externas bem equilibradas", "alias":"H"},
+        {"id": 4, "name":"Com muitas passagens e esconderijos", "alias":"E"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "2. O que é mais importante para você em um mapa?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Estratégia e coordenação em equipe", "alias":"A"},
+        {"id": 2, "name":"Habilidades individuais e duelos", "alias":"B"},
+        {"id": 3, "name":"Variedade de rotas e táticas", "alias":"C"},
+        {"id": 4, "name":"Boas posições para snipers", "alias":"D"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "2. O que é mais importante para você em um mapa?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Estratégia e coordenação em equipe", "alias":"H"},
+        {"id": 2, "name":"Habilidades individuais e duelos", "alias":"G"},
+        {"id": 3, "name":"Variedade de rotas e táticas",  "alias":"F"},
+        {"id": 4, "name":"Boas posições para snipers", "alias":"E"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "3. Como você prefere as configurações de bomba?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Localizada em áreas apertadas", "alias":"D"},
+        {"id": 2, "name":"Áreas abertas e expostas", "alias":"B"},
+        {"id": 3, "name":"Áreas que exigem trabalho em equipe para plantar", "alias":"C"},
+        {"id": 4, "name":"Locais com muitos corredores e passagens", "alias":"A"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "3. Como você prefere as configurações de bomba?",
+      "options":[
+        {"id": 1, "name":"Localizada em áreas apertadas", "alias":"F"},
+        {"id": 2, "name":"Áreas abertas e expostas", "alias":"E"},
+        {"id": 3, "name":"Áreas que exigem trabalho em equipe para plantar", "alias":"G"},
+        {"id": 4, "name":"Locais com muitos corredores e passagens", "alias":"H"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "4. Qual ambientação de mapa você acha mais interessante?",
+      "options":[
+        {"id": 1, "name":"Arquitetônicos e modernos", "alias":"D"},
+        {"id": 2, "name":"Naturais e ao ar livre", "alias":"B"},
+        {"id": 3, "name":"Urbanos e variados", "alias":"C"},
+        {"id": 4, "name":"Escuros e misteriosos", "alias":"A"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "4. Qual ambientação de mapa você acha mais interessante?",
+      "options":[
+        {"id": 1, "name":"Arquitetônicos e modernos", "alias":"G"},
+        {"id": 2, "name":"Naturais e ao ar livre", "alias":"E"},
+        {"id": 3, "name":"Urbanos e variados", "alias":"H"},
+        {"id": 4, "name":"Escuros e misteriosos", "alias":"F"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "5. Como você gosta do ritmo da partida?",
+      "options":[
+        {"id": 1, "name":"Partidas rápidas e intensas", "alias":"A"},
+        {"id": 2, "name":"Partidas mais lentas e estratégicas", "alias":"B"},
+        {"id": 3, "name":"Variedade de ritmo, com momentos calmos e intensos", "alias":"C"},
+        {"id": 4, "name":"Ação constante durante toda a partida", "alias":"D"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "5. Como você gosta do ritmo da partida?",
+      "options":[
+        {"id": 1, "name":"Partidas rápidas e intensas", "alias":"G"},
+        {"id": 2, "name":"Partidas mais lentas e estratégicas", "alias":"E"},
+        {"id": 3, "name":"Variedade de ritmo, com momentos calmos e intensos", "alias":"H"},
+        {"id": 4, "name":"Ação constante durante toda a partida", "alias":"F"}
+      ]
+    },
+    {
+      "id":11,
+      "question": "6. Qual o seu estilo de jogo preferido?",
+      "options":[
+        {"id": 1, "name":"Ofensivo, buscando o confronto direto", "alias":"A"},
+        {"id": 2, "name":"Defensivo, focando em proteger pontos-chave", "alias":"B"},
+        {"id": 3, "name":"Tático, planejando estratégias com a equipe", "alias":"C"},
+        {"id": 4, "name":"Versátil, adaptando-se a diferentes situações", "alias":"D"}
+      ]
+    },
+    {
+      "id":12,
+      "question": "6. Qual o seu estilo de jogo preferido?",
+      "options":[
+        {"id": 1, "name":"Ofensivo, buscando o confronto direto", "alias":"G"},
+        {"id": 2, "name":"Defensivo, focando em proteger pontos-chave", "alias":"F"},
+        {"id": 3, "name":"Tático, planejando estratégias com a equipe", "alias":"H"},
+        {"id": 4, "name":"Versátil, adaptando-se a diferentes situações", "alias":"E"}
+      ]
+    },
+    {
+      "id":13,
+      "question": "7. Como você se sente em relação a alturas nos mapas?",
+      "options":[
+        {"id": 1, "name":"Gosto de jogar em níveis mais baixos", "alias":"A"},
+        {"id": 2, "name":"Prefiro áreas elevadas para visão estratégica", "alias":"B"},
+        {"id": 3, "name":"Não me importo, desde que haja equilíbrio", "alias":"C"},
+        {"id": 4, "name":"Adoro áreas com muitos níveis e escadas", "alias":"D"}
+      ]
+    },
+    {
+      "id":14,
+      "question": "7. Como você se sente em relação a alturas nos mapas?",
+      "options":[
+        {"id": 1, "name":"Gosto de jogar em níveis mais baixos", "alias":"F"},
+        {"id": 2, "name":"Prefiro áreas elevadas para visão estratégica", "alias":"H"},
+        {"id": 3, "name":"Não me importo, desde que haja equilíbrio", "alias":"E"},
+        {"id": 4, "name":"Adoro áreas com muitos níveis e escadas", "alias":"G"}
+      ]
+    },
+    {
+      "id":15,
+      "question": "8. O que acha mais desafiador em um mapa?",
+      "options":[
+        {"id": 1, "name":"Confrontos individuais", "alias":"A"},
+        {"id": 2, "name":"Coordenar estratégias com a equipe", "alias":"B"},
+        {"id": 3, "name":"Adaptar-se a diferentes cenários", "alias":"C"},
+        {"id": 4, "name":" Lidar com áreas de confronto intenso", "alias":"D"}
+      ]
+    },
+    {
+      "id":16,
+      "question": "8. O que acha mais desafiador em um mapa?",
+      "options":[
+        {"id": 1, "name":"Confrontos individuais", "alias":"F"},
+        {"id": 2, "name":"Coordenar estratégias com a equipe", "alias":"H"},
+        {"id": 3, "name":"Adaptar-se a diferentes cenários", "alias":"E"},
+        {"id": 4, "name":" Lidar com áreas de confronto intenso", "alias":"G"}
+      ]
+    },
+    {
+      "id":17,
+      "question": "9. Qual é o seu papel preferido na equipe?",
+      "options":[
+        {"id": 1, "name":"Fragger, focado em eliminações", "alias":"A"},
+        {"id": 2, "name":"Suporte, auxiliando a equipe", "alias":"B"},
+        {"id": 3, "name":"In-game leader, liderando estratégias", "alias":"C"},
+        {"id": 4, "name":"Sniper, garantindo eliminações à distância", "alias":"D"}
+      ]
+    },
+    {
+      "id":18,
+      "question": "9. Qual é o seu papel preferido na equipe?",
+      "options":[
+        {"id": 1, "name":"Fragger, focado em eliminações", "alias":"E"},
+        {"id": 2, "name":"Suporte, auxiliando a equipe", "alias":"G"},
+        {"id": 3, "name":"In-game leader, liderando estratégias", "alias":"H"},
+        {"id": 4, "name":"Sniper, garantindo eliminações à distância", "alias":"F"}
+      ]
+    },
+    {
+      "id":19,
+      "question": "10. Como você se sente sobre mapas mais recentes?",
+      "options":[
+        {"id": 1, "name":"Prefiro os clássicos e tradicionais", "alias":"A"},
+        {"id": 2, "name":"Gosto de experimentar novos mapas", "alias":"E"},
+        {"id": 3, "name":"Acho que a variedade é sempre bem-vinda", "alias":"G"},
+        {"id": 4, "name":"Sinto que os mapas mais antigos são os melhores", "alias":"C"}
+      ]
+    },
+    {
+      "id":20,
+      "question": "10. Como você se sente sobre mapas mais recentes?",
+      "options":[
+        {"id": 1, "name":"Prefiro os clássicos e tradicionais", "alias":"B"},
+        {"id": 2, "name":"Gosto de experimentar novos mapas", "alias":"F"},
+        {"id": 3, "name":"Acho que a variedade é sempre bem-vinda", "alias":"H"},
+        {"id": 4, "name":"Sinto que os mapas mais antigos são os melhores", "alias":"D"}
+      ]
+    },
+    {
+      "id":21,
+      "question": "11. O que mais te atrai em um mapa?",
+      "options":[
+        {"id": 1, "name":"Detalhes e ambientação", "alias":"C"},
+        {"id": 2, "name":"Layout e estrutura tática", "alias":"B"},
+        {"id": 3, "name":"Variedade de áreas jogáveis", "alias":"A"},
+        {"id": 4, "name":"Dificuldade e desafio", "alias":"D"}
+      ]
+    },
+    {
+      "id":22,
+      "question": "11. O que mais te atrai em um mapa?",
+      "options":[
+        {"id": 1, "name":"Detalhes e ambientação", "alias":"F"},
+        {"id": 2, "name":"Layout e estrutura tática", "alias":"E"},
+        {"id": 3, "name":"Variedade de áreas jogáveis", "alias":"H"},
+        {"id": 4, "name":"Dificuldade e desafio", "alias":"G"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você gosta de uma Dustzinha velha de guerra!",
+    "B": "Você é um ratão de Mirage!",
+    "C": "Você gosta de rushar aquele meio-falso da Inferno!",
+    "D": "Você já sai da base da Nuke no xiu, né?",
+    "E": "Você é o diferentão da Anubis!",
+    "F": "A Ancient é a sua religião.",
+    "G": "Consegue rushar o meio da Vertigo de olho fechado, né?",
+    "H": "Pode deixar você sozinho na A que ninguém entra pela rua, banheiro e fundo nessa Over, né?"
   }
 }
